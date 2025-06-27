@@ -1,8 +1,15 @@
 # 📋 使用说明
 
+## 预览
+
+<img src="./public/start.png" width="400" />
+<img src="./public/preview.png" width="400" />
+
+
 ## 🚀 首次运行 / IP地址变更时
 
 ```bash
+npm install
 node init.js
 ```
 
@@ -16,6 +23,8 @@ node init.js
 ## 🔧 配置说明
 
 运行 `init.js` 后，程序会自动修改 `.env` 配置文件。配置完成后，以后就不需要重复运行初始化命令了。
+
+使用 mkcert (https://github.com/FiloSottile/mkcert) 生成证书，可以手动下载最新版进行替换
 
 ---
 
